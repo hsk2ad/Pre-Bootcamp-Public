@@ -1,0 +1,143 @@
+
+.container{
+    width: 970px;
+    background-color:  rgb(37, 86, 160);
+}
+
+.header{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.image{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.rightside{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 100px;
+}
+
+
+.size p{
+    margin: 0 0 0 120px;
+}
+
+.button{
+    background-color: black;
+    width: 280px;
+}
+
+.button p{
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    padding: 20px 80px;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 5px;
+    outline: 3px solid gray;
+
+}
+
+.button h6{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+    background-color:rgb(77, 77, 233);
+    border-radius: 3px;
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 40px;
+    outline: 3px solid gray;
+}
+
+.bodytags{
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-around;
+    color: white;
+    margin: 20px 50px 20px 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.nav{
+    display: inline-block;
+    color: yellow;
+    text-align: center;
+    font-size: 15px;
+}
+.nav a{
+    color: white;
+}
+
+.Information{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    padding-left: 80px;
+}
+
+.FirstPara span{
+    color: yellow;
+    text-align: center;
+    display: block;
+    font-style:italic;
+    margin: 10px;
+}
+
+.Bodybottom{
+    background-color: white;
+}
+
+.Bodybottom span{
+    color: lightblue;
+}
+
+.Body1{
+    width: 485px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    border-top: 4px solid #73a7d5;
+}
+
+.Body2{
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 480px;
+    margin-top: 10px;
+    border-top: 4px solid #73a7d5;
+}
+
+.Body1 p{
+    margin: 0 40px;
+}
+
+.Body2 p{
+    margin: 0 40px;
+}
+
+.footer .last{
+    display: flex;
+    justify-content:space-around;
+    color: lightblue;
+    margin: 0 40px;
+}
+
+.footer h4{
+    color: lightblue;
+    text-align: center;
+    margin: 0px;
+}

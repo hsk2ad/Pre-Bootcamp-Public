@@ -1,0 +1,135 @@
+
+.container{
+    width: 970px;
+    background-color: rgb(70, 51, 70);
+
+}
+
+.header{
+    background-color: ghostwhite;
+}
+
+.container h1{
+    display: inline-block;
+    vertical-align: top;
+    width: 570px;
+    margin-left: 30px;
+}
+.container h2{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.top .image{
+    display:inline-block;
+    vertical-align: top;
+    padding: 10px;
+    background-color: gray;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.about{
+    display: inline-block;
+    width: 460px;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 0px;
+    background-color: white;
+    min-height: 255px;
+}
+
+h3{
+    background-color: silver;
+    margin: 0px;
+    padding-left: 10px;
+    color: white;
+}
+
+.bottom{
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.first{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    margin-right: 70px;
+}
+
+.first p{
+    margin:auto;
+    background-color:white;
+    min-height: 250px;
+}
+
+.second{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    margin-right: 70px;
+}
+.second p{
+    margin: 0;
+    background-color: white;
+    min-height: 250px;
+}
+
+.third{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+}
+
+.third p{
+    margin: 0;
+    background-color: white;
+    min-height: 250px;
+}
+
+.minis{
+    margin: 0px;
+    background-color: white;
+    min-height: 150px;
+}
+
+.minis img{
+    padding-top: 10px;
+    padding-left: 13px;
+}
+
+.bottom a{
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: green;
+    color: white;
+    min-height: 30px;
+    margin-top: 10px;
+    width: 100px;
+    margin-left:60px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.footer{
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+}
+
+.footer a{
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+    margin-right: 10px;
+}
+
+.footer .minis2{
+    display: inline-block;
+    vertical-align: top;
+}
