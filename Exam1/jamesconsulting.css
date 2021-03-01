@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 970px;
+    background-color: rgb(0, 0, 49);
+    padding: 10px;
+}
+
+.header{
+    color: white;
+    padding: 10px;
+}
+
+span{
+    color:lightblue;
+}
+
+h1, ul, li{
+    display: inline-block;
+}
+
+li{
+    padding-left: 70px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.body{
+    background-color: white;
+}
+
+.section1{
+    width: 300px;
+    padding: 10px 10px 30px 10px;
+    background-color: lightblue;
+}
+.section2{
+    width: 300px;
+    padding: 10px 10px 30px 10px;
+    background-color: lightblue;
+}
+.section3{
+    width: 300px;
+    padding: 10px 10px 30px 10px;
+    background-color: lightblue;
+}
+
+.section1 img{
+    width: 40px;
+}
+.section2 img{
+    width: 40px;
+}
+.section3 img{
+    width: 40px;
+}
+
+
+.section1 h2{
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 20px 20px 0px;
+    color: white;
+}
+.section2 h2{
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 20px 20px 0px;
+    color: white;
+}
+.section3 h2{
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 20px 20px 0px;
+    color: white;
+}
+
+.sections{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section1{
+    color:white;
+    margin: 20px;
+}
+.section2{
+    color: white;
+    margin: 20px;
+}
+.section3{
+    color: white;
+    margin: 20px;
+}
+
+
+.body .sections a{
+    background-image: linear-gradient(to bottom, lightblue, rgb(0, 153, 255));
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
+.body .section2 a{
+    background-image: linear-gradient(to bottom, lightblue, rgb(0, 153, 255));
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+
+body img{
+    width: 930px;
+    padding: 20px 20px 0px 20px;
+}
+
+.body .bottom img{
+    width: 300px;
+    padding: 20px;
+}
+
+.bottom img{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bottom .paragraphs{
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.paragraphs p{
+    padding-bottom: 10px;
+}
+
+h3{
+    color: lightblue;
+}
+
+.bottom h2{
+    padding-left: 20px;
+}
+
+.rightside{
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+}
+
+.leftside{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.testimony{
+    background-color: rgb(115, 169, 252);
+    min-height: 50px;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer{
+    background-color: rgb(115, 169, 252);
+    text-align: center;
+    padding: 30px 0px;
+    border-top: 3px solid black;
+}
