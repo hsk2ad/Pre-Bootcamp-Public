@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.click').click(function(){
+                alert('alerted')
+            })
+            $('.hide').click(function(){
+                $('.hide').hide();
+            })
+            $('.show').click(function(){
+                $('.hide').show();
+            })
+            $('.toggle').click(function(){
+                $('.hide').toggle();
+            })
+            $('.slidedown').click(function(){
+                $('.hidden').slideDown();
+            })
+            $('.slideup').click(function(){
+                $('.hidden').slideUp();
+            })
+            $('.slidetoggle').click(function(){
+                $('.hidden').slideToggle();
+            })
+            $('.fadein').click(function(){
+                $('.hidden').fadeIn();
+            })
+            $('.fadeout').click(function(){
+                $('.hidden').fadeOut();
+            })
+            $('.addclass').click(function(){
+                $('.hidden').addClass('green');
+            })
+            $('.before').click(function(){
+                $('.hidden').before("<h3>lala</h3>");
+            })
+            $('.after').click(function(){
+                $('.hidden').after("<h3>lala</h3>");
+            })
+            $('.append').click(function(){
+                $('.hidden').append("<p>haha<p>");
+            })
+            $('.html').click(function(){
+                $('.hidden').html("<p>yayeet<p>");
+            })
+            $('.attr').click(function(){
+                var classVal = $('#hidden').attr("class");
+                $('#hidden').append(classVal);
+            })
+            $('.val').click(function(){
+                console.log($('#val').val());
+            })
+            $('.text').click(function(){
+                $('.hidden').text('hello');
+            })
+        })
+
+    </script>
+    <style type = "text/css">
+    .green{
+        color: green;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <button class="click">click</button>
+        <button class="hide">hide</button>
+        <button class="show">show</button>
+        <button class="toggle">toggle</button>
+        <p class="hidden" id="hidden" hidden> haha</p>
+        <div>
+            <button class="slidedown">slidedown</button>
+        </div>
+        <input type="text" id="val">
+        <button class="slideup">slideup</button>
+        <button class="slidetoggle">slidetoggle</button>
+        <button class="fadein">fadein</button>
+        <button class="fadeout">fadeout</button>
+        <button class="addclass">addclass</button>
+        <button class="before">before</button>
+        <button class="after">after</button>
+        <button class="append">append</button>
+        <button class="html">html</button>
+        <button class="attr">attr</button>
+        <button class="val">val</button>
+        <button class="text">text</button>
+    </div>
+</body>
+</html>
